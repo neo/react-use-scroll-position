@@ -26,6 +26,9 @@
     "url": "https://github.com/neo/react-use-scroll-position/issues"
   },
   "homepage": "https://github.com/neo/react-use-scroll-position#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
   "devDependencies": {
     "@types/react": "^16.7.20",
     "react": "^16.8.0-alpha.1",
