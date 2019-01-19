@@ -1,0 +1,34 @@
+{
+  "name": "react-use-scroll-position",
+  "version": "1.0.0-alpha.0",
+  "description": "A react hook to use scroll position",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neo/react-use-scroll-position.git"
+  },
+  "keywords": [
+    "scroll",
+    "position",
+    "react",
+    "hook",
+    "scroll position",
+    "react hook"
+  ],
+  "author": "Wenchen Li <neo.li@jam3.com> (https://wenchen.li/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neo/react-use-scroll-position/issues"
+  },
+  "homepage": "https://github.com/neo/react-use-scroll-position#readme",
+  "devDependencies": {
+    "@types/react": "^16.7.20",
+    "react": "^16.8.0-alpha.1",
+    "typescript": "^3.2.4"
+  }
+}
