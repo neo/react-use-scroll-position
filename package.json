@@ -3,6 +3,7 @@
   "version": "1.0.0-alpha.0",
   "description": "A react hook to use scroll position",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",

@@ -21,9 +21,8 @@ export function useScrollPosition(): ScrollPosition {
         });
       }
     }
-    const options: AddEventListenerOptions = { passive: true, capture: true };
-    window.addEventListener('scroll', handleScroll, options);
-    return () => window.removeEventListener('scroll', handleScroll, options);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   return position;
 }
