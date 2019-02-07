@@ -31,8 +31,8 @@
     "react": ">=16.8.0"
   },
   "devDependencies": {
-    "@types/react": "^16.7.20",
-    "react": "^16.8.0-alpha.1",
-    "typescript": "^3.2.4"
+    "@types/react": "^16.8.2",
+    "react": "^16.8.1",
+    "typescript": "^3.3.1"
   }
 }
